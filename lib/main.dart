@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/painting/border_radius.dart';
 import 'login.dart';
 import 'register.dart';
 
@@ -24,6 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
       'login':(context)=>MyLoginPage(),
         'register':(context)=>MyRegisterPage(),
+       // 'profile':(context)=>MyProfile(),
   },
      // home:  MyLoginPage(),
     );
